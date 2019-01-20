@@ -10,6 +10,7 @@ module.exports = {
   output: {
     publicPath: '/dist/',
     filename: '[name].js',
+    chunkFilename: '[name].js',
   },
   devServer: {
     contentBase: './',
